@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-bot-grupo",
+  "version": "1.0.0",
+  "description": "Bot para WhatsApp com boas-vindas, regras, jogos e moderação",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "grupo",
+    "jogos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
